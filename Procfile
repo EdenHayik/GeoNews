@@ -1,2 +1,2 @@
-web: cd server && python run_server.py
+web: cd server && uvicorn app.main:app --host 0.0.0.0 --port $PORT
 
